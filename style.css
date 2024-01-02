@@ -41,7 +41,7 @@ nav ul button{
     font-size: 14px;
 }
 .hero_section{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
 }
 .hero_section .box{
@@ -146,10 +146,66 @@ nav ul button{
 
 }
 .container_1 .box .box_1{
-    height: 10px;
-    width: 150px;
-    background-color: black;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(249, 249, 249);
     rotate: 26deg;
     position: absolute;
+    left: 630px;  
+    border-radius: 200px 200px 200px 00px;
+    z-index: 1;
+}
+.container_1 .box .box_2 {
+    height: 150px;
+    width: 40px;
+    background-color: rgb(249,201,53);
+    rotate: 26deg;
+    position: absolute;
+    left: 465px;
+    bottom: -89px;
+    border-radius: 200px 20px 200px 200px;
+}
+.container_1 .know_us{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-left: 920px;
+}
+.container_1 .know_us h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.container_1 .know_us p{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.container_1 .know_us .btn_1{
+    height: 55px;
+    width: 210px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(249,201,53);
+    border: none;
+    border-radius: 200px 200px 200px 2px;
+}
+.our_impact{
+    width: 100%;
+    height: 100vh;
+}
+.our_impact .box{
+    width: 75%;
+    height: 86vh;
+    background-color: rgb(251,247,221);
+    border-radius: 2000px 2000px 2000px 2000px;
+    rotate: 20deg;
+    margin-top: 150px;
+    margin-left: 370px;
 
+}
+.our_impact .box .text_area{
+    rotate: -20deg;
 }
